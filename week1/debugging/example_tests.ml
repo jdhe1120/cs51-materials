@@ -10,7 +10,7 @@
 
  *)
 
-open Functions ;;
+open Example ;;
 open CS51 ;;
 
 (* Method 1: Evaluating assertions (line by line)
