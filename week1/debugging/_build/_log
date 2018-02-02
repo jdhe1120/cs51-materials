@@ -1,0 +1,12 @@
+### Starting build.
+# Target: errors.ml.depends, tags: { extension:ml, file:errors.ml, ocaml, ocamldep, quiet }
+/Users/jdhe1120/.opam/4.02.3/bin/ocamldep.opt -modules errors.ml > errors.ml.depends
+# Target: errors.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:errors.cmo, file:errors.ml, implem, ocaml, quiet }
+/Users/jdhe1120/.opam/4.02.3/bin/ocamlc.opt -c -o errors.cmo errors.ml
++ /Users/jdhe1120/.opam/4.02.3/bin/ocamlc.opt -c -o errors.cmo errors.ml
+File "errors.ml", line 10, characters 11-12:
+Error: This expression has type 'a but an expression was expected of type
+         'a option
+       The type variable 'a occurs inside 'a option
+Command exited with code 2.
+# Compilation unsuccessful.
